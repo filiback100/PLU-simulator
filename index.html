@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,700&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,700&family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/3afd7ae741.js" crossorigin="anonymous"></script>
+ 
+  <title>Träna PLU</title>
+</head>
+<body onload="getRandomVara()">
+  <div class="header">
+    <h1>PLU simulator</h1>
+  </div>
+
+<div class="product-card">
+  <span id="fire-number">0</span>
+  <i id="fire" class="fa-solid fa-fire fa-lg" style="color: #e5b224;"></i>
+  <h3 id="product"></h3>
+  <input class="form-control" type="number" id="input" placeholder="Skriv in PLU" onfocus="this.value=''">
+  <i id="visa-plu" class="fa-solid fa-eye fa-lg"></i>
+</div>
+<div class="om-spelet">
+  <h2>instruktioner</h2>
+  <p> Skriver du in fel PLU eller använder dig av ögat för att se rätt svar så börjar streak-räknaren om. <br>Tryck ENTER för att kontrollera ditt svar! <br> <br> 
+  </p>
+  
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>Created by Filip Bäcklund -  <span id="contact"> <a href="mailto:filipbacklund96@gmail.com">contact</a></span></footer>
+<script src="function.js"></script>  
+</body>
+
+
+</html>
