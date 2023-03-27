@@ -5,13 +5,13 @@ The store has an old system with requires you to manually input the PLU codes to
 Så i created this one. 
 
 
-Orignial version was made with PHP and a database in mySQL. But for a easier time taking the page online so others in the same situation like me.  I rewrote the code and used a JS-object to store it all of the data about PLU-codes.  
+Orignial version was made with PHP and a database in mySQL. But for a easier time taking the page online so others in the same situation like me can use it.  I rewrote the code and used a JS-object to store it all of the data about PLU-codes.  
 
 The site is constructed in a simple fashion with some interactive functions like a streak-count, my tought being this would make it more fun to learn. 
 
 I'm posting all of the PLU-codes down below if anyone wants to try it out. 
 
-const pluKoder = {
+
   banan: 94011,
   "lök gul": 4666,
   "ananas ST": 4029,
@@ -45,4 +45,4 @@ const pluKoder = {
   "mango ST": 4313,
   "melon Galia COOP KG": 4326,
   "Melon Galia KG": 4329,
-};
+
